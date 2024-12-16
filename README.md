@@ -47,9 +47,9 @@ Hi! I'm **Simonel-Olimpiu David**, a passionate **Master's student in Distribute
 ---
 
 ## 🌟 Achievements
-- **Finalist:** [Insert details about the specific achievement if known]
-- **ROSPIN Academy:** Coordinated over 300 students in a national educational program on the space industry.
-- **Mentor for EUSDC Cluj-Napoca:** Guided a high school team to victory in a space mission design competition.
+- **ROSPIN Community:** Coordinated a team of over 50 members for over a year and developed space communities in more than ten cities all over Romania.
+- **ROSPIN School:** Coordinated over 300 students in a national educational program on the space industry.
+- **Mentor for ROSDC Cluj-Napoca:** Guided a high school team to victory in a space mission design competition.
 
 ---
 
@@ -72,11 +72,26 @@ Hi! I'm **Simonel-Olimpiu David**, a passionate **Master's student in Distribute
 ---
 
 ## 🚀 Featured Projects
-### [Central Monitoring Kubernetes Cluster](https://github.com/simoneldavid/central-monitoring)
-- **Technologies:** Kubernetes, Grafana, Prometheus, Terraform.
+### [Autonomus Heat Island Detection Tool](https://github.com/SimonelDavid/HeatIslands)
+- **Technologies:** Docker, Terraform, GEE, Java, Python, Nginx, Grafana, Prometheus.
 
-### [ROSPIN Academy Intro to Space](https://github.com/simoneldavid/rospin-academy)
-- **Description:** Developed a platform to educate students on space engineering and lifecycle of space missions.
+### [Landsat vs Copernicus](https://github.com/Romanian-Space-Initiative/Landsat-vs-Copernicus)
+- **Description:** I held a workshop for younger students at my university on behalf of ROSPIN about the advantages and disadvantages of using Copernicus and Landsat Satellite Data.
+- **Technologies:** Python, GEE, Copernicus Hub.
+
+### [Geospatial Intelligence Workshop](https://github.com/Romanian-Space-Initiative/Geospatial-Intelligence-Workshop)
+- **Description:** I held a workshop for younger students at my university on behalf of ROSPIN about deploying a simple web application that processes satellite data.
+- **Technologies:** Docker, Shell Scripting, Python, GEE, Copernicus Hub.
+
+### [SpacedIn Platform](https://spacedin.getlearnworlds.com/)
+- **Description:** Developed a platform to educate students on space engineering and the lifecycle of space missions.
+
+### [ROSPIN Website](https://rospin.org/)
+- **Description:** Developed the main website of ROSPIN.
+
+### [WhatsApp Automation Tool](https://github.com/SimonelDavid/WhatsAppMessageAutomation)
+- **Description:** Developed an application to help the staff of ROSPIN on different projects.
+- **Technologies:** Python.
 
 ---
 
