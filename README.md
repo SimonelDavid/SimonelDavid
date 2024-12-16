@@ -1,6 +1,13 @@
-# 🌌 Welcome to Simonel David's GitHub Profile! 🌌
+ __          __  _                             _            _____ _                            _    _____              _     _ _         _____ _ _   _    _       _        _____            __ _ _      
+ \ \        / / | |                           | |          / ____(_)                          | |  |  __ \            (_)   | ( )       / ____(_) | | |  | |     | |      |  __ \          / _(_) |     
+  \ \  /\  / /__| | ___ ___  _ __ ___   ___   | |_ ___    | (___  _ _ __ ___   ___  _ __   ___| |  | |  | | __ ___   ___  __| |/ ___   | |  __ _| |_| |__| |_   _| |__    | |__) | __ ___ | |_ _| | ___ 
+   \ \/  \/ / _ \ |/ __/ _ \| '_ ` _ \ / _ \  | __/ _ \    \___ \| | '_ ` _ \ / _ \| '_ \ / _ \ |  | |  | |/ _` \ \ / / |/ _` | / __|  | | |_ | | __|  __  | | | | '_ \   |  ___/ '__/ _ \|  _| | |/ _ \
+    \  /\  /  __/ | (_| (_) | | | | | |  __/  | || (_) |   ____) | | | | | | | (_) | | | |  __/ |  | |__| | (_| |\ V /| | (_| | \__ \  | |__| | | |_| |  | | |_| | |_) |  | |   | | | (_) | | | | |  __/
+     \/  \/ \___|_|\___\___/|_| |_| |_|\___|   \__\___/   |_____/|_|_| |_| |_|\___/|_| |_|\___|_|  |_____/ \__,_| \_/ |_|\__,_| |___/   \_____|_|\__|_|  |_|\__,_|_.__/   |_|   |_|  \___/|_| |_|_|\___|
 
-Hi! I'm **Simonel-Olimpiu David**, a passionate **Master's student in Distributed Systems in the Internet at Babeș-Bolyai University** and a **Junior DevOps Engineer at COERA**. With a strong foundation in **computer science** and a deep interest in the **space field**, I combine technical expertise with a collaborative spirit to contribute to exciting projects across domains.
+
+
+Hi! I'm **Simonel-Olimpiu David**, a passionate **Master's student in Distributed Systems on the Internet at Babeș-Bolyai University** and a **Junior DevOps Engineer at COERA**. With a strong foundation in **computer science** and a deep interest in the **space field**, I combine technical expertise with a collaborative spirit to contribute to exciting projects across domains.
 
 ---
 
@@ -62,6 +69,7 @@ Hi! I'm **Simonel-Olimpiu David**, a passionate **Master's student in Distribute
 ## 📊 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=simoneldavid&show_icons=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=simoneldavid&layout=compact&theme=radical)
+![GitHub Contribution Snake](https://github.com/simoneldavid/simoneldavid/blob/output/github-contribution-grid-snake.svg)
 
 ---
 
