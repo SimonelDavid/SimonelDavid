@@ -63,7 +63,7 @@ Hi! I'm **Simonel-Olimpiu David**, a passionate **Master's student in Distribute
 ## 📊 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=simoneldavid&show_icons=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=simoneldavid&layout=compact&theme=radical)
-![GitHub Contribution Snake](https://github.com/simoneldavid/simoneldavid/blob/output/github-contribution-grid-snake.svg)
+![GitHub Contribution Snake](https://github.com/simoneldavid/simoneldavid/blob/output/github-contribution-grid-snake-dark.svg)
 
 ---
 
