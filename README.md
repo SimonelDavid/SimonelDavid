@@ -1,13 +1,4 @@
- __      __   _                     _          ___ _                    _ 
- \ \    / /__| |__ ___ _ __  ___   | |_ ___   / __(_)_ __  ___ _ _  ___| |
-  \ \/\/ / -_) / _/ _ \ '  \/ -_)  |  _/ _ \  \__ \ | '  \/ _ \ ' \/ -_) |
-   \_/\_/\___|_\__\___/_|_|_\___|   \__\___/  |___/_|_|_|_\___/_||_\___|_|
-                                                                          
-  ___           _    _ _        ___ _ _   _  _      _       ___          __ _ _     
- |   \ __ ___ _(_)__| ( )___   / __(_) |_| || |_  _| |__   | _ \_ _ ___ / _(_) |___ 
- | |) / _` \ V / / _` |/(_-<  | (_ | |  _| __ | || | '_ \  |  _/ '_/ _ \  _| | / -_)
- |___/\__,_|\_/|_\__,_| /__/   \___|_|\__|_||_|\_,_|_.__/  |_| |_| \___/_| |_|_\___|
-                                                                                    
+- # 🌌 Welcome to Simonel David's GitHub Profile! 🌌       
 
 
 Hi! I'm **Simonel-Olimpiu David**, a passionate **Master's student in Distributed Systems on the Internet at Babeș-Bolyai University** and a **Junior DevOps Engineer at COERA**. With a strong foundation in **computer science** and a deep interest in the **space field**, I combine technical expertise with a collaborative spirit to contribute to exciting projects across domains.
