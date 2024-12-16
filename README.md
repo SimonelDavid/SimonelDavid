@@ -1,4 +1,4 @@
-- # 🌌 Welcome to Simonel David's GitHub Profile! 🌌       
+# 🌌 Welcome to Simonel David's GitHub Profile! 🌌       
 
 
 Hi! I'm **Simonel-Olimpiu David**, a passionate **Master's student in Distributed Systems on the Internet at Babeș-Bolyai University** and a **Junior DevOps Engineer at COERA**. With a strong foundation in **computer science** and a deep interest in the **space field**, I combine technical expertise with a collaborative spirit to contribute to exciting projects across domains.
