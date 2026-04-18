@@ -280,7 +280,16 @@ Machine Learning · Cybersecurity · Space Exploration · Satellites · Astronom
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=simoneldavid&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=simoneldavid&theme=tokyonight" alt="Profile Details" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=simoneldavid&theme=tokyonight" alt="Repos per Language" height="200" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=simoneldavid&theme=tokyonight" alt="Most Commit Language" height="200" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=simoneldavid&theme=tokyonight" alt="Stats" height="200" />
 </p>
 
 <p align="center">
