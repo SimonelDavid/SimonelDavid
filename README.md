@@ -149,7 +149,7 @@ Machine Learning · Cybersecurity · Space Exploration · Satellites · Astronom
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=simoneldavid&show_icons=true&theme=radical&include_all_commits=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=simoneldavid&layout=compact&theme=radical)
-![GitHub Contribution Snake](https://github.com/simoneldavid/simoneldavid/blob/output/github-contribution-grid-snake-dark.svg)
+![GitHub Contribution Snake](https://raw.githubusercontent.com/SimonelDavid/SimonelDavid/output/github-contribution-grid-snake-dark.svg)
 
 ---
 
