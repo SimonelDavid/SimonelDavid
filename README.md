@@ -5,7 +5,7 @@
 
 <!-- HERO BANNER -->
 <a href="https://github.com/SimonelDavid">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10,20,30&height=240&section=header&text=Simonel-Olimpiu%20David&fontSize=54&fontAlignY=36&fontColor=ffffff&animation=twinkling&desc=Cloud%20Infrastructure%20%C2%B7%20DevOps%20%C2%B7%20Earth%20Observation%20%C2%B7%20Space%20Technology&descSize=18&descAlignY=58&descAlignX=50" alt="mission control banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:58A6FF&height=240&section=header&text=Simonel-Olimpiu%20David&fontSize=54&fontAlignY=36&fontColor=ffffff&animation=twinkling&desc=Cloud%20Infrastructure%20%C2%B7%20DevOps%20%C2%B7%20Earth%20Observation%20%C2%B7%20Space%20Technology&descSize=18&descAlignY=58&descAlignX=50" alt="mission control banner" />
 </a>
 
 <!-- TYPING TAGLINE -->
@@ -17,8 +17,8 @@
 
 <!-- ORBIT METRICS -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=simoneldavid&style=for-the-badge&color=0b1021&label=UPLINK+VIEWS" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/SimonelDavid?style=for-the-badge&color=0b1021&label=GROUND+CREW&logo=github" alt="followers" />
+  <img src="https://komarev.com/ghpvc/?username=simoneldavid&style=for-the-badge&color=0D1117&label=UPLINK+VIEWS" alt="profile views" />
+  <img src="https://img.shields.io/github/followers/SimonelDavid?style=for-the-badge&color=0D1117&label=GROUND+CREW&logo=github" alt="followers" />
   <img src="https://img.shields.io/badge/GROUND%20STATION-Cluj--Napoca%2C%20RO-0b1021?style=for-the-badge&logo=icloud&logoColor=white" alt="ground station" />
   <img src="https://img.shields.io/badge/STATUS-In%20Orbit-0b1021?style=for-the-badge&logo=spacex&logoColor=white" alt="status" />
   <img src="https://img.shields.io/badge/OPEN%20TO-Collaboration-0b1021?style=for-the-badge&logo=handshake&logoColor=white" alt="open to" />
@@ -45,7 +45,7 @@ spec:
       role: EO Platform Product Manager
       focus: [ earth-observation, product-strategy, satellite-data ]
     - name: ROSPIN
-      role: Business Development Director · IT Manager
+      role: Business Development Director · Satellite Data Masterclass Manager (also IT Manager)
       focus: [ community, education, aerospace-outreach ]
   learning: [ distributed-systems, federated-learning, edge-ml ]
   interests: [ satellites, astronomy, cybersecurity, music, violin ]
@@ -61,11 +61,11 @@ status: In Orbit — accepting collaboration requests.
   <tr>
     <td width="33%" valign="top" align="center">
       <a href="https://www.coera.ro/">
-        <img src="https://img.shields.io/badge/COERA%20BC%20SRL-0b1021?style=for-the-badge&logo=amazonwebservices&logoColor=F90" alt="COERA" />
+        <img src="https://img.shields.io/badge/COERA%20BC%20SRL-0D1117?style=for-the-badge&logo=amazonwebservices&logoColor=79C0FF" alt="COERA" />
       </a>
       <h4>Cloud Platforms Orbit</h4>
       <p><em>Mid DevOps Engineer</em></p>
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=13&duration=2400&pause=900&color=F0883E&center=true&vCenter=true&width=280&height=120&lines=kubectl+apply+-f+platform.yaml;terraform+plan+-out%3Dweekly.tfplan;argocd+sync+prod-cluster;prometheus+%2B+thanos+%3D+%E2%9D%A4;observability+as+a+product" alt="coera typing" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=13&duration=2400&pause=900&color=79C0FF&center=true&vCenter=true&width=280&height=120&lines=kubectl+apply+-f+platform.yaml;terraform+plan+-out%3Dweekly.tfplan;argocd+sync+prod-cluster;prometheus+%2B+thanos+%3D+%E2%9D%A4;observability+as+a+product" alt="coera typing" />
       <p>
         <img src="https://img.shields.io/badge/-AWS-232F3E?logo=amazonaws&logoColor=white" />
         <img src="https://img.shields.io/badge/-K8s-326CE5?logo=kubernetes&logoColor=white" />
@@ -78,7 +78,7 @@ status: In Orbit — accepting collaboration requests.
       </a>
       <h4>Earth Observation Orbit</h4>
       <p><em>EO Platform Product Manager</em></p>
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=13&duration=2400&pause=900&color=7EE787&center=true&vCenter=true&width=280&height=120&lines=sentinel-2+%E2%86%92+training+pipeline;radar+%2B+multispectral+fusion;product+roadmap+%E2%86%92+orbit;customers+%E2%86%92+signal+%E2%86%92+insight;ship+features%2C+not+pixels" alt="aim-space typing" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=13&duration=2400&pause=900&color=58A6FF&center=true&vCenter=true&width=280&height=120&lines=sentinel-2+%E2%86%92+training+pipeline;radar+%2B+multispectral+fusion;product+roadmap+%E2%86%92+orbit;customers+%E2%86%92+signal+%E2%86%92+insight;ship+features%2C+not+pixels" alt="aim-space typing" />
       <p>
         <img src="https://img.shields.io/badge/-Copernicus-1A73E8?logo=googleearth&logoColor=white" />
         <img src="https://img.shields.io/badge/-GEE-4285F4?logo=googleearthengine&logoColor=white" />
@@ -87,11 +87,11 @@ status: In Orbit — accepting collaboration requests.
     </td>
     <td width="33%" valign="top" align="center">
       <a href="https://rospin.org/">
-        <img src="https://img.shields.io/badge/ROSPIN-0b1021?style=for-the-badge&logo=rocket&logoColor=E06C75" alt="ROSPIN" />
+        <img src="https://img.shields.io/badge/ROSPIN-0D1117?style=for-the-badge&logo=rocket&logoColor=79C0FF" alt="ROSPIN" />
       </a>
       <h4>Community Orbit</h4>
-      <p><em>Business Development Director · IT Manager</em></p>
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=13&duration=2400&pause=900&color=F778BA&center=true&vCenter=true&width=280&height=120&lines=partnerships+%E2%86%92+launched;sat-data+masterclass+%40+BBU;website+deploys+%E2%86%92+rospin.org;mentoring+junior+devs;space+education+%40+scale" alt="rospin typing" />
+      <p><em>Business Development Director<br/>Satellite Data Masterclass Manager<br/><sub>also IT / Platform Manager</sub></em></p>
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=13&duration=2400&pause=900&color=4493F8&center=true&vCenter=true&width=280&height=120&lines=partnerships+%E2%86%92+launched;sat-data+masterclass+%40+BBU;website+deploys+%E2%86%92+rospin.org;mentoring+junior+devs;space+education+%40+scale" alt="rospin typing" />
       <p>
         <img src="https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black" />
         <img src="https://img.shields.io/badge/-WordPress-21759B?logo=wordpress&logoColor=white" />
@@ -112,7 +112,7 @@ status: In Orbit — accepting collaboration requests.
    00 13  *  *  1-5 lunch --no-slack
    00 14  *  *  1-5 aim-space:product  # AIM-SPACE · EO platform, roadmap, data
    00 18  *  *  1-5 rospin:community   # ROSPIN · partnerships, mentoring, events
-   00 21  *  *  *   learn || play(violin, guitar) || stargaze
+   00 21  *  *  *   learn || play(violin) || dance || stargaze
    00 23  *  *  *   shutdown --graceful
 ```
 
@@ -120,10 +120,10 @@ status: In Orbit — accepting collaboration requests.
 
 ```mermaid
 flowchart LR
-    classDef coera    fill:#1f2937,stroke:#F90,stroke-width:2px,color:#F0883E
-    classDef aim      fill:#1f2937,stroke:#7EE787,stroke-width:2px,color:#7EE787
-    classDef rospin   fill:#1f2937,stroke:#F778BA,stroke-width:2px,color:#F778BA
-    classDef ground   fill:#0b1021,stroke:#58A6FF,stroke-width:2px,color:#58A6FF
+    classDef coera    fill:#0D1117,stroke:#58A6FF,stroke-width:2px,color:#79C0FF
+    classDef aim      fill:#0D1117,stroke:#4493F8,stroke-width:2px,color:#79C0FF
+    classDef rospin   fill:#0D1117,stroke:#1F6FEB,stroke-width:2px,color:#79C0FF
+    classDef ground   fill:#0D1117,stroke:#0969DA,stroke-width:3px,color:#58A6FF
 
     GROUND([ Ground Station<br/>Cluj-Napoca, RO ]):::ground
 
@@ -189,13 +189,13 @@ personal     Job/violin-practice                      CronJob    ∞      self  
     <td width="50%" valign="top">
       <h3 align="center">Quick Facts</h3>
       <p align="center">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2400&pause=1200&color=7EE787&center=true&vCenter=true&width=420&height=160&lines=%E2%96%B8+Ships+Kubernetes+platforms+at+COERA;%E2%96%B8+Flies+satellites+(figuratively)+at+AIM-SPACE;%E2%96%B8+Leads+BD+%26+IT+at+ROSPIN;%E2%96%B8+Defense-X+Hackathon+Winner+'25;%E2%96%B8+Speaks+3+languages+%2B+Bash;%E2%96%B8+Plays+violin+and+guitar;%E2%96%B8+Ask+me+about+geospatial+pipelines" alt="fun facts typing" />
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2400&pause=1200&color=79C0FF&center=true&vCenter=true&width=420&height=160&lines=%E2%96%B8+Ships+Kubernetes+platforms+at+COERA;%E2%96%B8+Flies+satellites+(figuratively)+at+AIM-SPACE;%E2%96%B8+Leads+BD+%26+Satellite+Data+Masterclass+at+ROSPIN;%E2%96%B8+Defense-X+Hackathon+Winner+'25;%E2%96%B8+Speaks+3+languages+%2B+Bash;%E2%96%B8+Plays+violin+%E2%80%94+trained+in+contemporary+dance;%E2%96%B8+Ask+me+about+geospatial+pipelines" alt="fun facts typing" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">Guess the Stack</h3>
       <p align="center">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=3000&pause=900&color=F778BA&center=true&vCenter=true&width=420&height=160&lines=Orchestration%3F++%E2%86%92++Kubernetes;IaC%3F++%E2%86%92++Terraform+%2B+Ansible;CI%2FCD%3F++%E2%86%92++Jenkins+%2B+ArgoCD;Observability%3F++%E2%86%92++Grafana+%2B+Prom+%2B+Thanos;Cloud%3F++%E2%86%92++AWS+%2B+Azure;EO+Data%3F++%E2%86%92++GEE+%2B+Copernicus;Edge+ML%3F++%E2%86%92++On-orbit+federated+learning" alt="guess the stack" />
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=3000&pause=900&color=4493F8&center=true&vCenter=true&width=420&height=160&lines=Orchestration%3F++%E2%86%92++Kubernetes;IaC%3F++%E2%86%92++Terraform+%2B+Ansible;CI%2FCD%3F++%E2%86%92++Jenkins+%2B+ArgoCD;Observability%3F++%E2%86%92++Grafana+%2B+Prom+%2B+Thanos;Cloud%3F++%E2%86%92++AWS+%2B+Azure;EO+Data%3F++%E2%86%92++GEE+%2B+Copernicus;Edge+ML%3F++%E2%86%92++On-orbit+federated+learning" alt="guess the stack" />
       </p>
     </td>
   </tr>
@@ -394,18 +394,18 @@ Built a machine-learning solution to analyse instrument noise and improve signal
 
 <p align="center">
   <a href="https://github.com/SimonelDavid/HeatIslands">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SimonelDavid&repo=HeatIslands&theme=tokyonight&hide_border=true&border_radius=10" alt="HeatIslands" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SimonelDavid&repo=HeatIslands&theme=github_dark&hide_border=true&border_radius=10" alt="HeatIslands" />
   </a>
   <a href="https://github.com/Romanian-Space-Initiative/Landsat-vs-Copernicus">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Romanian-Space-Initiative&repo=Landsat-vs-Copernicus&theme=tokyonight&hide_border=true&border_radius=10" alt="Landsat vs Copernicus" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Romanian-Space-Initiative&repo=Landsat-vs-Copernicus&theme=github_dark&hide_border=true&border_radius=10" alt="Landsat vs Copernicus" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/Romanian-Space-Initiative/Geospatial-Intelligence-Workshop">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Romanian-Space-Initiative&repo=Geospatial-Intelligence-Workshop&theme=tokyonight&hide_border=true&border_radius=10" alt="Geospatial Intelligence Workshop" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Romanian-Space-Initiative&repo=Geospatial-Intelligence-Workshop&theme=github_dark&hide_border=true&border_radius=10" alt="Geospatial Intelligence Workshop" />
   </a>
   <a href="https://github.com/SimonelDavid/WhatsAppMessageAutomation">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SimonelDavid&repo=WhatsAppMessageAutomation&theme=tokyonight&hide_border=true&border_radius=10" alt="WhatsApp Automation" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SimonelDavid&repo=WhatsAppMessageAutomation&theme=github_dark&hide_border=true&border_radius=10" alt="WhatsApp Automation" />
   </a>
 </p>
 
@@ -453,37 +453,37 @@ Leadership · Teamwork · Communication · Research · Creativity · Problem-Sol
 
 ## Side Payloads — Other Interests
 
-Machine Learning · Cybersecurity · Space Exploration · Satellites · Astronomy · Video Games · Open-Source · Music · Violin · Guitar · Contemporary Dance
+Machine Learning · Cybersecurity · Space Exploration · Satellites · Astronomy · Video Games · Open-Source · Music · Violin · Contemporary Dance (trained)
 
 ---
 
 ## Telemetry — GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=simoneldavid&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&border_radius=10&rank_icon=github" alt="GitHub Stats" height="170" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=simoneldavid&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Streak" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=simoneldavid&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&border_radius=10&rank_icon=github" alt="GitHub Stats" height="170" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=simoneldavid&theme=github_dark&hide_border=true&border_radius=10" alt="GitHub Streak" height="170" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=simoneldavid&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&langs_count=10" alt="Top Languages" height="170" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=simoneldavid&theme=tokyonight&utcOffset=2" alt="Productive Time" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=simoneldavid&layout=compact&theme=github_dark&hide_border=true&border_radius=10&langs_count=10" alt="Top Languages" height="170" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=simoneldavid&theme=github_dark&utcOffset=2" alt="Productive Time" height="170" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=simoneldavid&theme=tokyonight" alt="Profile Details" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=simoneldavid&theme=github_dark" alt="Profile Details" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=simoneldavid&theme=tokyonight" alt="Repos per Language" height="200" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=simoneldavid&theme=tokyonight" alt="Most Commit Language" height="200" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=simoneldavid&theme=github_dark" alt="Repos per Language" height="200" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=simoneldavid&theme=github_dark" alt="Most Commit Language" height="200" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=simoneldavid&theme=tokyonight" alt="Stats" height="200" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=simoneldavid&theme=github_dark" alt="Stats" height="200" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=simoneldavid&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Telemetry" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=simoneldavid&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Telemetry" alt="Activity Graph" />
 </p>
 
 ### Contribution Snake — Eating the Orbit
@@ -501,7 +501,7 @@ Machine Learning · Cybersecurity · Space Exploration · Satellites · Astronom
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://simoneldavid.github.io/Personal-website">
-    <img src="https://img.shields.io/badge/Personal%20Website-0F172A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Personal Website" />
+    <img src="https://img.shields.io/badge/Personal%20Website-1F6FEB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Personal Website" />
   </a>
   <a href="mailto:simoneldavid17@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
@@ -510,7 +510,7 @@ Machine Learning · Cybersecurity · Space Exploration · Satellites · Astronom
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://rospin.org/">
-    <img src="https://img.shields.io/badge/ROSPIN-111?style=for-the-badge&logo=rocket&logoColor=E06C75" alt="ROSPIN" />
+    <img src="https://img.shields.io/badge/ROSPIN-0D1117?style=for-the-badge&logo=rocket&logoColor=79C0FF" alt="ROSPIN" />
   </a>
 </p>
 
@@ -520,4 +520,4 @@ Machine Learning · Cybersecurity · Space Exploration · Satellites · Astronom
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&width=820&height=46&lines=%E2%80%9CLet+your+dreams+expand+beyond+the+borders+of+the+universe.%E2%80%9D" alt="closing quote" />
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10,20,30&height=120&section=footer&animation=twinkling" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:58A6FF&height=120&section=footer&animation=twinkling" alt="footer" />
