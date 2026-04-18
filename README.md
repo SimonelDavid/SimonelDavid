@@ -576,43 +576,6 @@ Built a machine-learning solution to analyse instrument noise and improve signal
 
 ---
 
-## Upcoming Missions — 2026+ Roadmap
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=1000&color=58A6FF&center=true&vCenter=true&width=820&height=42&lines=T-minus+loading+next+mission%E2%80%A6;countdown%3A+always+something+on+the+pad" alt="roadmap countdown" />
-</p>
-
-| T-minus | Mission | Orbit |
-| :-- | :-- | :-- |
-| Now | Production-grade GitOps on multi-cluster Kubernetes | COERA |
-| Q2 2026 | Federated learning PoC on simulated EO constellation | AIM-SPACE · Research |
-| Q2 2026 | *Satellite Data Processing Masterclass* — v2 cohort with BBU | ROSPIN |
-| Q3 2026 | Thanos receive + multi-tenant observability stack | COERA |
-| Q3 2026 | ROSPIN partnerships pipeline — 5 new institutional MoUs | ROSPIN |
-| Q4 2026 | EO platform public beta · stakeholder onboarding | AIM-SPACE |
-| 2027 | Master's thesis · distributed systems for on-orbit EO | BBU |
-
-```mermaid
-gantt
-    title  Upcoming Missions — 2026
-    dateFormat  YYYY-MM
-    axisFormat  %b
-    todayMarker off
-    section COERA
-      GitOps multi-cluster        :active,  c1, 2026-01, 9M
-      Thanos multi-tenant obs     :         c2, 2026-07, 4M
-    section AIM-SPACE
-      Federated-learning PoC      :active,  a1, 2026-03, 5M
-      EO platform public beta     :         a2, 2026-09, 4M
-    section ROSPIN
-      Masterclass v2 (BBU)        :active,  r1, 2026-02, 6M
-      Institutional partnerships  :         r2, 2026-04, 8M
-    section Personal
-      Master's thesis             :         p1, 2026-10, 6M
-```
-
----
-
 ## Lab Notebook — Currently Experimenting With
 
 <p align="center">
@@ -652,6 +615,63 @@ drwxr-xr-x  thesis-distributed-eo/      # reading list + prototype scaffolding
   <img src="https://img.shields.io/badge/Vilnius%2C%20LT-Erasmus%2B%20KA21%20'18-0D1117?style=for-the-badge&logo=europeanunion&logoColor=79C0FF" />
   <img src="https://img.shields.io/badge/Antalya%2C%20TR-Erasmus%2B%20'19-0D1117?style=for-the-badge&logo=europeanunion&logoColor=79C0FF" />
 </p>
+
+---
+
+## Sound of Mission Control — Spotify Wrapped 2025
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2400&pause=900&color=58A6FF&center=true&vCenter=true&width=820&height=42&lines=%24+tune+--frequency%3Dmission-control;%24+spotify+get+wrapped+--year%3D2025;%E2%94%82+top+artist%3A+Subcarpa%C8%9Bi+%C2%B7+930+min+%C2%B7+top+0.8%25+global+fan" alt="spotify intro" />
+</p>
+
+### Top Artist — the one song-on-repeat
+
+<p align="center">
+  <a href="https://open.spotify.com/search/Subcarpa%C8%9Bi">
+    <img src="https://img.shields.io/badge/Subcarpa%C8%9Bi-930%20min%20%C2%B7%20top%200.8%25%20global%20fan-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Subcarpați — top artist 2025" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=2800&pause=1000&color=79C0FF&center=true&vCenter=true&width=760&height=40&lines=%E2%96%B8+Romanian+hip-hop+woven+with+traditional+folk;%E2%96%B8+Coding+soundtrack+of+choice+at+03%3A47+AM;%E2%96%B8+One+track+per+deploy+to+prod" alt="subcarpati taste notes" />
+</p>
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h4 align="center">Top Songs — 2025</h4>
+      <p align="center">
+        <a href="https://open.spotify.com/search/Raving%20David%20Guetta%20AFROJACK"><img src="https://img.shields.io/badge/01-Raving%20%C2%B7%20David%20Guetta%2C%20AFROJACK-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Raving" /></a><br/>
+        <a href="https://open.spotify.com/search/Turn%20On%20The%20Lights%20again%20Fred%20again%20Swedish%20House%20Mafia"><img src="https://img.shields.io/badge/02-Turn%20On%20The%20Lights%20again..%20%C2%B7%20Fred%20again..%2C%20SHM-58A6FF?style=for-the-badge&logo=spotify&logoColor=white" alt="Turn On The Lights again.." /></a><br/>
+        <a href="https://open.spotify.com/search/Losing%20It%20FISHER"><img src="https://img.shields.io/badge/03-Losing%20It%20%C2%B7%20FISHER-1F6FEB?style=for-the-badge&logo=spotify&logoColor=white" alt="Losing It" /></a><br/>
+        <a href="https://open.spotify.com/search/Belly%20Dancer%20Imanbek%20BYOR"><img src="https://img.shields.io/badge/04-Belly%20Dancer%20%C2%B7%20Imanbek%2C%20BYOR-4493F8?style=for-the-badge&logo=spotify&logoColor=white" alt="Belly Dancer" /></a><br/>
+        <a href="https://open.spotify.com/search/Vois%20sur%20ton%20chemin%20BENNETT"><img src="https://img.shields.io/badge/05-Vois%20sur%20ton%20chemin%20%C2%B7%20BENNETT-79C0FF?style=for-the-badge&logo=spotify&logoColor=white" alt="Vois sur ton chemin" /></a>
+      </p>
+    </td>
+    <td valign="top" width="50%">
+      <h4 align="center">Top Genres — 2025</h4>
+      <p align="center">
+        <img src="https://img.shields.io/badge/01-Electronica-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Electronica" /><br/>
+        <img src="https://img.shields.io/badge/02-Europop-58A6FF?style=for-the-badge&logo=spotify&logoColor=white" alt="Europop" /><br/>
+        <img src="https://img.shields.io/badge/03-Soundtrack-1F6FEB?style=for-the-badge&logo=spotify&logoColor=white" alt="Soundtrack" /><br/>
+        <img src="https://img.shields.io/badge/04-Rap-4493F8?style=for-the-badge&logo=spotify&logoColor=white" alt="Rap" /><br/>
+        <img src="https://img.shields.io/badge/05-Trap-79C0FF?style=for-the-badge&logo=spotify&logoColor=white" alt="Trap" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+### Top Albums — 2025
+
+| # | Album | Artist |
+| :--: | :-- | :-- |
+| 01 | [Valea Voltului](https://open.spotify.com/search/Valea%20Voltului%20Subcarpa%C8%9Bi) | Subcarpați |
+| 02 | [Suits (Original Television Soundtrack)](https://open.spotify.com/search/Suits%20Original%20Television%20Soundtrack%20Christopher%20Tyng) | Christopher Tyng |
+| 03 | [BITE ME](https://open.spotify.com/search/BITE%20ME%20RAVA) | RAVA |
+| 04 | [The Sound of Heaven](https://open.spotify.com/search/The%20Sound%20of%20Heaven%20Andr%C3%A9%20Rieu) | André Rieu · Johann Strauss Orchestra |
+| 05 | [Hurry Up Tomorrow](https://open.spotify.com/search/Hurry%20Up%20Tomorrow%20The%20Weeknd) | The Weeknd |
+
+> **Taste, summarised:** Electronica and Europop run the focus sessions, soundtracks (the *Suits* OST especially) keep the writing flowing, and Subcarpați — Romanian hip-hop fused with traditional folk — anchors the whole rotation.
 
 ---
 
