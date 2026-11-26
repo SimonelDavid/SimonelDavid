@@ -10,13 +10,13 @@
 
 <!-- CUSTOM ORBITAL ANIMATION -->
 <p align="center">
-  <img src="./assets/orbital-banner.svg" alt="animated orbital scene — three satellites orbiting Earth against a starfield" />
+  <img src="./assets/orbital-banner.svg" alt="animated orbital scene - three satellites orbiting Earth against a starfield" />
 </p>
 
 <!-- TYPING TAGLINE -->
 <p align="center">
   <a href="https://github.com/SimonelDavid">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&multiline=false&width=820&height=46&lines=%24+kubectl+get+humans+-l+role%3Ddevops+--namespace%3Dspace;%24+terraform+apply+-target%3Dearth_observation_platform;%24+ssh+mission-control+%E2%80%94+pipelines+are+green%2C+sats+are+healthy;%24+ping+orbit+%E2%80%94+latency+500ms%2C+signal+strong" alt="typing tagline" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&multiline=false&width=820&height=46&lines=%24+kubectl+get+humans+-l+role%3Ddevops+--namespace%3Dspace;%24+terraform+apply+-target%3Dearth_observation_platform;%24+ssh+mission-control+-+pipelines+are+green%2C+sats+are+healthy;%24+ping+orbit+-+latency+500ms%2C+signal+strong" alt="typing tagline" />
   </a>
 </p>
 
@@ -33,7 +33,7 @@
 
 ## Mission Briefing
 
-I'm a **Mid DevOps Engineer at COERA BC SRL** and **EO Platform Product Manager at AIM-SPACE**, operating at the intersection of cloud infrastructure and space technology. My days rotate between three orbits — **COERA** (cloud platforms and observability), **AIM-SPACE** (Earth Observation products), and **ROSPIN** (community and aerospace outreach). Currently pursuing a Master's in Distributed Systems in Internet at Babeș-Bolyai University.
+I'm a **Mid DevOps Engineer at COERA BC SRL**, **EO Platform Product Manager at AIM-SPACE** and **Business Development Director at the Romanian Space Initiative (ROSPIN)**, working where cloud infrastructure meets space technology. My days rotate between three orbits: **COERA** (cloud platforms and observability), **AIM-SPACE** (Earth Observation products) and **ROSPIN** (partnerships, community and aerospace outreach). Since 2026 I'm pursuing a Master's in Software Engineering at Babeș-Bolyai University (UBB), Cluj-Napoca.
 
 ```yaml
 apiVersion: mission.simoneldavid.dev/v1
@@ -50,22 +50,22 @@ spec:
       role: EO Platform Product Manager
       focus: [ earth-observation, product-strategy, satellite-data ]
     - name: ROSPIN
-      role: Business Development Director · Satellite Data Masterclass Manager (also IT Manager)
+      role: Business Development Director · Satellite Data Processing Masterclass - Project Supervisor (also IT Manager)
       focus: [ community, education, aerospace-outreach ]
   learning: [ distributed-systems, federated-learning, edge-ml ]
   interests: [ satellites, astronomy, cybersecurity, music, violin ]
   motto: "Let your dreams expand beyond the borders of the universe."
-status: In Orbit — accepting collaboration requests.
+status: In Orbit - accepting collaboration requests.
 ```
 
 ---
 
-## Daily Mission Control — The Three Orbits
+## Daily Mission Control - The Three Orbits
 
 <table>
   <tr>
     <td width="33%" valign="top" align="center">
-      <a href="https://www.coera.ro/">
+      <a href="https://coera.eu/">
         <img src="https://img.shields.io/badge/COERA%20BC%20SRL-0D1117?style=for-the-badge&logo=amazonwebservices&logoColor=79C0FF" alt="COERA" />
       </a>
       <h4>Cloud Platforms Orbit</h4>
@@ -95,7 +95,7 @@ status: In Orbit — accepting collaboration requests.
         <img src="https://img.shields.io/badge/ROSPIN-0D1117?style=for-the-badge&logo=rocket&logoColor=79C0FF" alt="ROSPIN" />
       </a>
       <h4>Community Orbit</h4>
-      <p><em>Business Development Director<br/>Satellite Data Masterclass Manager<br/><sub>also IT / Platform Manager</sub></em></p>
+      <p><em>Business Development Director<br/>Satellite Data Processing Masterclass - Project Supervisor<br/><sub>also IT / Platform Manager</sub></em></p>
       <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=13&duration=2400&pause=900&color=4493F8&center=true&vCenter=true&width=280&height=120&lines=partnerships+%E2%86%92+launched;sat-data+masterclass+%40+BBU;website+deploys+%E2%86%92+rospin.org;mentoring+junior+devs;space+education+%40+scale" alt="rospin typing" />
       <p>
         <img src="https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black" />
@@ -106,7 +106,7 @@ status: In Orbit — accepting collaboration requests.
   </tr>
 </table>
 
-### Orbital Schedule — a typical weekday (UTC+2)
+### Orbital Schedule - a typical weekday (UTC+2)
 
 ```bash
 # ~/.config/mission/crontab
@@ -121,7 +121,7 @@ status: In Orbit — accepting collaboration requests.
    00 23  *  *  *   shutdown --graceful
 ```
 
-### Mission Architecture — how the orbits connect
+### Mission Architecture - how the orbits connect
 
 ```mermaid
 flowchart LR
@@ -153,7 +153,7 @@ flowchart LR
     subgraph ROSPIN [ ROSPIN · Community ]
       direction TB
       R1[Partnerships · BD]:::rospin
-      R2[Satellite Data Masterclass]:::rospin
+      R2[Satellite Data Processing Masterclass]:::rospin
       R3[rospin.org + Mentoring]:::rospin
       R4[Aerospace Outreach]:::rospin
       R1 --> R2 --> R3 --> R4
@@ -176,40 +176,38 @@ coera        ReplicaSet/k8s-platform                  Running    2y     devops  
 coera        CronJob/observability-stack              Running    2y     devops      P0
 coera        Deployment/ci-cd-pipelines               Running    2y     devops      P1
 aim-space    Deployment/eo-platform                   Deploying  6mo    product     P0
-aim-space    Job/satellite-data-masterclass           Running    1y     education   P1
 aim-space    Pod/federated-learning-edge-ml           Pending    3mo    research    P2
 rospin       StatefulSet/partnerships-bd              Running    new    leadership  P0
+rospin       Job/satellite-data-masterclass           Running    2y     supervisor  P1
 rospin       Deployment/rospin.org                    Running    3y     it-manager  P1
 rospin       CronJob/aerospace-outreach-events        Scheduled  4y     community   P1
-personal     Pod/masters-distributed-systems          Running    2y     self        P0
+personal     Pod/msc-software-engineering             Running    new    self        P0
 personal     Job/violin-practice                      CronJob    ∞      self        P3
 ```
 
 ---
 
-## Current Status — Live From Mission Control
+## Current Focus
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2400&pause=900&color=79C0FF&center=true&vCenter=true&width=820&height=42&lines=%5B+now+building+%5D++GitOps+platform+%40+COERA;%5B+now+planning+%5D+EO+platform+public+beta+%40+AIM-SPACE;%5B+now+partnering+%5D+institutional+MoUs+%40+ROSPIN;%5B+now+reading+%5D++federated+learning+for+on-orbit+analytics" alt="current status" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2400&pause=900&color=79C0FF&center=true&vCenter=true&width=820&height=42&lines=%5B+now+building+%5D++GitOps+platform+%40+COERA;%5B+now+planning+%5D+EO+platform+public+beta+%40+AIM-SPACE;%5B+now+partnering+%5D+institutional+MoUs+%40+ROSPIN;%5B+now+reading+%5D++federated+learning+for+on-orbit+analytics" alt="current focus" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PAGER-Quiet-1F6FEB?style=for-the-badge&logo=pagerduty&logoColor=white" alt="pager" />
-  <img src="https://img.shields.io/badge/ON--CALL-This%20Week-0D1117?style=for-the-badge&logo=opsgenie&logoColor=79C0FF" alt="on-call" />
-  <img src="https://img.shields.io/badge/INBOX-Open-0D1117?style=for-the-badge&logo=maildotru&logoColor=79C0FF" alt="inbox" />
-  <img src="https://img.shields.io/badge/COFFEE-HIGH-1F6FEB?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="coffee" />
+  <img src="https://img.shields.io/badge/INBOX-Open-0D1117?style=for-the-badge&logo=maildotru&logoColor=79C0FF" alt="decorative badge: inbox open" />
+  <img src="https://img.shields.io/badge/COFFEE-HIGH-1F6FEB?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="decorative badge: coffee high" />
 </p>
 
 ---
 
-## Interactive Terminal — About Me
+## Interactive Terminal - About Me
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">Quick Facts</h3>
       <p align="center">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2400&pause=1200&color=79C0FF&center=true&vCenter=true&width=420&height=160&lines=%E2%96%B8+Ships+Kubernetes+platforms+at+COERA;%E2%96%B8+Flies+satellites+(figuratively)+at+AIM-SPACE;%E2%96%B8+Leads+BD+%26+Satellite+Data+Masterclass+at+ROSPIN;%E2%96%B8+Defense-X+Hackathon+Winner+'25;%E2%96%B8+Speaks+3+languages+%2B+Bash;%E2%96%B8+Plays+violin+%E2%80%94+trained+in+contemporary+dance;%E2%96%B8+Ask+me+about+geospatial+pipelines" alt="fun facts typing" />
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2400&pause=1200&color=79C0FF&center=true&vCenter=true&width=420&height=160&lines=%E2%96%B8+Ships+Kubernetes+platforms+at+COERA;%E2%96%B8+Flies+satellites+(figuratively)+at+AIM-SPACE;%E2%96%B8+BD+Director%2C+Masterclass+Supervisor+%40+ROSPIN;%E2%96%B8+Defense-X+Hackathon+Winner+'25;%E2%96%B8+Speaks+3+languages+%2B+Bash;%E2%96%B8+Plays+violin+-+trained+in+contemporary+dance;%E2%96%B8+Ask+me+about+geospatial+pipelines" alt="fun facts typing" />
       </p>
     </td>
     <td width="50%" valign="top">
@@ -222,45 +220,45 @@ personal     Job/violin-practice                      CronJob    ∞      self  
 </table>
 
 <details>
-  <summary><b>Level-1 — Cloud &amp; Infrastructure Trivia</b></summary>
+  <summary><b>Level-1 - Cloud &amp; Infrastructure Trivia</b></summary>
 
   <br/>
 
   **Q1.** What tool turns a Git commit into a running cluster change without a `kubectl apply`?
-  <details><summary>answer</summary>ArgoCD — GitOps reconciliation loop.</details>
+  <details><summary>answer</summary>ArgoCD - GitOps reconciliation loop.</details>
 
   **Q2.** Which three pillars of observability do I work with daily?
   <details><summary>answer</summary>Metrics (Prometheus/Thanos), Logs (OpenSearch + FluentBit + Logstash), Traces.</details>
 
   **Q3.** If you need multi-region, long-retention Prometheus without running out of disk, what do you reach for?
-  <details><summary>answer</summary>Thanos — global query view and object-store backed blocks.</details>
+  <details><summary>answer</summary>Thanos - global query view and object-store backed blocks.</details>
 
   **Q4.** Which AWS service do you NOT want to scale to zero if uptime matters?
-  <details><summary>answer</summary>NAT Gateway — it's zonal, and losing it silently breaks egress.</details>
+  <details><summary>answer</summary>NAT Gateway - it's zonal, and losing it silently breaks egress.</details>
 
 </details>
 
 <details>
-  <summary><b>Level-2 — Earth Observation &amp; Space Trivia</b></summary>
+  <summary><b>Level-2 - Earth Observation &amp; Space Trivia</b></summary>
 
   <br/>
 
   **Q1.** Which ESA mission studies exoplanet atmospheres via transit spectroscopy?
-  <details><summary>answer</summary>Ariel — I worked on noise analysis during the ESA Datalabs Ariel Hackathon 2025.</details>
+  <details><summary>answer</summary>Ariel - I worked on noise analysis during the ESA Datalabs Ariel Hackathon 2025.</details>
 
-  **Q2.** Landsat vs Copernicus — which constellation gives you a 5-day global revisit?
+  **Q2.** Landsat vs Copernicus - which constellation gives you a 5-day global revisit?
   <details><summary>answer</summary>Copernicus Sentinel-2 (a pair of satellites).</details>
 
   **Q3.** What do Urban Heat Island cold spots tell urban planners?
-  <details><summary>answer</summary>Where green infrastructure is working — and where a city is quietly cooling itself.</details>
+  <details><summary>answer</summary>Where green infrastructure is working - and where a city is quietly cooling itself.</details>
 
   **Q4.** Why SAR (radar) instead of optical imagery for border monitoring?
-  <details><summary>answer</summary>SAR sees through clouds and works at night — critical for 24/7 critical-infrastructure surveillance.</details>
+  <details><summary>answer</summary>SAR sees through clouds and works at night - critical for 24/7 critical-infrastructure surveillance.</details>
 
 </details>
 
 <details>
-  <summary><b>Level-3 — Product &amp; Leadership Trivia</b></summary>
+  <summary><b>Level-3 - Product &amp; Leadership Trivia</b></summary>
 
   <br/>
 
@@ -268,13 +266,13 @@ personal     Job/violin-practice                      CronJob    ∞      self  
   <details><summary>answer</summary>"What decision does this enable a customer to make, and how often?"</details>
 
   **Q2.** Worst failure mode for a community organisation growing fast?
-  <details><summary>answer</summary>No succession plan — when founders leave, institutional memory leaves with them.</details>
+  <details><summary>answer</summary>No succession plan - when founders leave, institutional memory leaves with them.</details>
 
 </details>
 
 ---
 
-## Arcade — Mission Simulators
+## Arcade - Mission Simulators
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2200&pause=900&color=58A6FF&center=true&vCenter=true&width=760&height=42&lines=%3E+boot+%2Farcade;%3E+insert+coin+%E2%80%A6;%3E+GAME+SELECT+%E2%86%92+pick+a+simulator+below" alt="arcade boot" />
@@ -284,7 +282,7 @@ personal     Job/violin-practice                      CronJob    ∞      self  
   <tr>
     <td width="50%" valign="top" align="center">
       <h4>SIM&nbsp;#01 · Production&nbsp;Incident</h4>
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=13&duration=2000&pause=800&color=79C0FF&center=true&vCenter=true&width=360&height=46&lines=03%3A47+AM+%E2%80%94+PagerDuty%3A+pods+OOMKilled;level%3A+ROOKIE+%7C+lives%3A+3" alt="incident intro" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=13&duration=2000&pause=800&color=79C0FF&center=true&vCenter=true&width=360&height=46&lines=03%3A47+AM+-+PagerDuty%3A+pods+OOMKilled;level%3A+ROOKIE+%7C+lives%3A+3" alt="incident intro" />
     </td>
     <td width="50%" valign="top" align="center">
       <h4>SIM&nbsp;#02 · Identify&nbsp;the&nbsp;Satellite</h4>
@@ -304,7 +302,7 @@ personal     Job/violin-practice                      CronJob    ∞      self  
 </table>
 
 <details>
-  <summary><b>SIM #01 — Escape the Production Incident</b> &nbsp;·&nbsp; choose your path</summary>
+  <summary><b>SIM #01 - Escape the Production Incident</b> &nbsp;·&nbsp; choose your path</summary>
 
   <br/>
 
@@ -318,7 +316,7 @@ personal     Job/violin-practice                      CronJob    ∞      self  
 
   <details>
     <summary>➜ next: blameless post-mortem</summary>
-    You run <code>kubectl describe pod</code> on yesterday's image, find a memory leak in a new Prometheus scrape, raise a PR, write a runbook. Game cleared — but the harder way.
+    You run <code>kubectl describe pod</code> on yesterday's image, find a memory leak in a new Prometheus scrape, raise a PR, write a runbook. Game cleared - but the harder way.
   </details>
   </details>
 
@@ -335,7 +333,7 @@ personal     Job/violin-practice                      CronJob    ∞      self  
   </details>
   <details>
     <summary>➜ dig into a heap dump immediately</summary>
-    Noble — but at 03:47 AM, mean-time-to-recovery beats mean-time-to-root-cause. Users don't pay you for heroism, they pay you for uptime.<br/>
+    Noble - but at 03:47 AM, mean-time-to-recovery beats mean-time-to-root-cause. Users don't pay you for heroism, they pay you for uptime.<br/>
     <b>Verdict:</b> correct eventually, wrong first. <b>Lives remaining: 2.</b>
   </details>
   </details>
@@ -351,33 +349,33 @@ personal     Job/violin-practice                      CronJob    ∞      self  
 </details>
 
 <details>
-  <summary><b>SIM #02 — Identify the Satellite</b> &nbsp;·&nbsp; three rounds</summary>
+  <summary><b>SIM #02 - Identify the Satellite</b> &nbsp;·&nbsp; three rounds</summary>
 
   <br/>
 
   **Round 1.** *"I see through clouds. I work at night. Border patrols love me."*
-  <details><summary>reveal</summary>Sentinel-1 — C-band Synthetic Aperture Radar. The one I use for border-change detection in EOSec.</details>
+  <details><summary>reveal</summary>Sentinel-1 - C-band Synthetic Aperture Radar. The one I use for border-change detection in EOSec.</details>
 
-  **Round 2.** *"I have 13 spectral bands, a 10–60 m resolution, and a 5-day global revisit thanks to my twin."*
-  <details><summary>reveal</summary>Sentinel-2 — the workhorse of Copernicus optical EO.</details>
+  **Round 2.** *"I have 13 spectral bands, a 10-60 m resolution, and a 5-day global revisit thanks to my twin."*
+  <details><summary>reveal</summary>Sentinel-2 - the workhorse of Copernicus optical EO.</details>
 
   **Round 3.** *"I am tuned for the troposphere. Methane plumes cannot hide from me."*
-  <details><summary>reveal</summary>Sentinel-5P (TROPOMI) — atmospheric composition monitoring.</details>
+  <details><summary>reveal</summary>Sentinel-5P (TROPOMI) - atmospheric composition monitoring.</details>
 
   **Bonus.** *"I transit exoplanets and sniff their atmospheres. The ESA is still building me."*
-  <details><summary>reveal</summary>Ariel — the mission behind the ESA Datalabs hackathon I joined in Madrid.</details>
+  <details><summary>reveal</summary>Ariel - the mission behind the ESA Datalabs hackathon I joined in Madrid.</details>
 
 </details>
 
 <details>
-  <summary><b>SIM #03 — Match the Tool to the Pain</b></summary>
+  <summary><b>SIM #03 - Match the Tool to the Pain</b></summary>
 
   <br/>
 
   | Pain | Pick the tool |
   | --- | --- |
-  | "My Prometheus is eating all my disk and I want 2-year retention." | <details><summary>pick</summary>Thanos — object-store blocks + global query.</details> |
-  | "My cluster has drifted from Git. Someone `kubectl edit`-ed production again." | <details><summary>pick</summary>ArgoCD — declare desired state, let the reconciler win the fight.</details> |
+  | "My Prometheus is eating all my disk and I want 2-year retention." | <details><summary>pick</summary>Thanos - object-store blocks + global query.</details> |
+  | "My cluster has drifted from Git. Someone `kubectl edit`-ed production again." | <details><summary>pick</summary>ArgoCD - declare desired state, let the reconciler win the fight.</details> |
   | "Logs are scattered across 40 pods and I can't correlate anything." | <details><summary>pick</summary>FluentBit → Logstash → OpenSearch. Ship, transform, search.</details> |
   | "Terraform state got corrupted because two engineers ran apply simultaneously." | <details><summary>pick</summary>Remote state + DynamoDB lock table (or equivalent lock backend).</details> |
   | "Our CI deploys don't roll back automatically when health checks fail." | <details><summary>pick</summary>ArgoCD sync waves + rollout hooks, or Argo Rollouts for progressive delivery.</details> |
@@ -386,7 +384,7 @@ personal     Job/violin-practice                      CronJob    ∞      self  
 </details>
 
 <details>
-  <summary><b>SIM #04 — Infra Word Scramble</b></summary>
+  <summary><b>SIM #04 - Infra Word Scramble</b></summary>
 
   <br/>
 
@@ -402,7 +400,7 @@ personal     Job/violin-practice                      CronJob    ∞      self  
 </details>
 
 <details>
-  <summary><b>SIM #05 — Guess the Log, Name the Incident</b></summary>
+  <summary><b>SIM #05 - Guess the Log, Name the Incident</b></summary>
 
   <br/>
 
@@ -411,7 +409,7 @@ personal     Job/violin-practice                      CronJob    ∞      self  
   error: Got a connection, but no valid credentials were found
   context deadline exceeded (Client.Timeout exceeded while awaiting headers)
   ```
-  <details><summary>reveal root cause</summary>IAM role assumption or IRSA misconfiguration — workload can reach the API but can't authenticate in time.</details>
+  <details><summary>reveal root cause</summary>IAM role assumption or IRSA misconfiguration - workload can reach the API but can't authenticate in time.</details>
 
   **Log snippet B:**
   ```
@@ -419,7 +417,7 @@ personal     Job/violin-practice                      CronJob    ∞      self  
   [exit code 137]
   pod evicted: The node was low on resource: memory
   ```
-  <details><summary>reveal root cause</summary>OOMKill — set memory <code>requests</code> + <code>limits</code>; investigate leak; consider <code>VerticalPodAutoscaler</code> recommendations.</details>
+  <details><summary>reveal root cause</summary>OOMKill - set memory <code>requests</code> + <code>limits</code>; investigate leak; consider <code>VerticalPodAutoscaler</code> recommendations.</details>
 
   **Log snippet C:**
   ```
@@ -511,7 +509,7 @@ personal     Job/violin-practice                      CronJob    ∞      self  
 
 ---
 
-## Flight Log — Experience
+## Flight Log - Experience
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:1F6FEB,100:0D1117&height=4&section=header" alt="divider" />
@@ -519,64 +517,73 @@ personal     Job/violin-practice                      CronJob    ∞      self  
 
 | Role | Organisation | Period |
 | --- | --- | --- |
-| Mid DevOps Engineer | COERA BC SRL | Jan 2026 — Present |
-| Advanced Junior DevOps Engineer | COERA BC SRL | Jul 2025 — Jan 2026 |
-| Junior DevOps Engineer | COERA BC SRL | Jun 2024 — Jul 2025 |
-| Trainee DevOps Engineer | COERA BC SRL | Oct 2022 — Jun 2024 |
-| DevOps Intern | COERA BC SRL | Jul 2022 — Aug 2022 |
-| EO Platform Product Manager | AIM-SPACE | Nov 2025 — Present |
-| Software Engineer | AIM-SPACE | Mar 2023 — Nov 2025 |
+| Project Manager, BraveTech EU DefTech Forge Romania | ROSPIN, with the "Nicolae Bălcescu" Land Forces Academy, Sibiu | Sep 2026 - Nov 2026 |
+| Mid DevOps Engineer | COERA BC SRL | Jan 2026 - Present |
+| Advanced Junior DevOps Engineer | COERA BC SRL | Jul 2025 - Jan 2026 |
+| Junior DevOps Engineer | COERA BC SRL | Jun 2024 - Jul 2025 |
+| Trainee DevOps Engineer | COERA BC SRL | Oct 2022 - Jun 2024 |
+| DevOps Intern | COERA BC SRL | Jul 2022 - Aug 2022 |
+| EO Platform Product Manager | AIM-SPACE | Nov 2025 - Present |
+| Software Engineer | AIM-SPACE | Mar 2023 - Nov 2025 |
 
 <details>
   <summary><b>Role highlights</b></summary>
 
-  - **Mid DevOps Engineer @ COERA BC SRL** — Designing and operating AWS and Kubernetes infrastructure with CI/CD automation and infrastructure-as-code.
-  - **Advanced Junior DevOps Engineer @ COERA BC SRL** — Improved cloud reliability through Terraform-based automation and production monitoring.
-  - **Junior DevOps Engineer @ COERA BC SRL** — Built Kubernetes platforms and centralised monitoring to improve deployment efficiency.
-  - **Trainee DevOps Engineer @ COERA BC SRL** — Supported cloud automation and CI/CD using Terraform, Ansible, and Jenkins.
-  - **DevOps Intern @ COERA BC SRL** — Introduced to cloud and DevOps practices through Azure-based deployments.
-  - **EO Platform Product Manager @ AIM-SPACE** — Leading an Earth Observation platform by aligning satellite data capabilities with product strategy.
-  - **Software Engineer @ AIM-SPACE** — Developed satellite data processing and geospatial analysis solutions.
+  - **Project Manager, BraveTech EU DefTech Forge Romania** - Led the application and coordinated the Romanian edition, organised by ROSPIN with the "Nicolae Bălcescu" Land Forces Academy in Sibiu, in partnership with the European Commission, Brave1 and EDA. European start-ups and SMEs tested defence and dual-use technologies under realistic conditions across four challenges. Worked with 340 people from 164 organisations.
+  - **Mid DevOps Engineer @ COERA BC SRL** - Designing and operating AWS and Kubernetes infrastructure with CI/CD automation and infrastructure-as-code.
+  - **Advanced Junior DevOps Engineer @ COERA BC SRL** - Improved cloud reliability through Terraform-based automation and production monitoring.
+  - **Junior DevOps Engineer @ COERA BC SRL** - Built Kubernetes platforms and centralised monitoring to improve deployment efficiency.
+  - **Trainee DevOps Engineer @ COERA BC SRL** - Supported cloud automation and CI/CD using Terraform, Ansible, and Jenkins.
+  - **DevOps Intern @ COERA BC SRL** - Introduced to cloud and DevOps practices through Azure-based deployments.
+  - **EO Platform Product Manager @ AIM-SPACE** - Leading an Earth Observation platform by aligning satellite data capabilities with product strategy.
+  - **Software Engineer @ AIM-SPACE** - Developed satellite data processing and geospatial analysis solutions.
 
 </details>
 
 ---
 
-## Constellation — Volunteering &amp; Community
+## Constellation - Volunteering &amp; Community
 
-- **Business Development Director @ ROSPIN** *(Apr 2026 — Present)* — Leading ROSPIN's growth strategy and partnerships.
-- **Satellite Data Processing Masterclass Project Manager @ ROSPIN** *(Oct 2024 — Present)* — Built and manages a satellite data course with Babeș-Bolyai University.
-- **IT Manager @ ROSPIN** *(Sep 2022 — Present)* — Leads website development and mentors junior developers in WordPress, cPanel, and React.
-- **PR Coordinator &amp; Aerospace Mentor @ Romanian Science Festival** *(Apr 2024 — Dec 2024)* — Led outreach and hands-on space activities for children.
-- **Community Manager @ ROSPIN** *(Sep 2022 — Jan 2024)* — Organised large-scale space education events across 11 cities in Romania.
-- **ROSPIN School Project Manager** *(Jan 2022 — Sep 2022)* — Led the inaugural edition with 300 students on space science and technology.
-- **Cluj-Napoca Ambassador @ ROSPIN** *(Oct 2021 — Sep 2022)* — Built and led a community of space enthusiasts, organising regular networking events with industry experts.
-- **Volunteer — Projects Department @ Asociația Studenților Fizicieni UBB** *(Oct 2022 — Sep 2023)* — Planned and executed STEM events and workshops with high participant engagement.
-- **Volunteer @ Euroavia Cluj-Napoca** *(Oct 2022 — Sep 2023)* — Organised aerospace networking events, workshops, and industry-focused discussions.
-- **HR Volunteer @ HERMES Society** *(Oct 2021 — Sep 2023)* — Supported recruitment and coordinated the Hermes Hackathon.
-- **Backstage Volunteer @ UNTOLD Festival** *(Aug 2022)* — Logistical and operational backstage support: artist schedules, equipment setup, event execution.
+- **Business Development Director @ ROSPIN** *(Apr 2026 - Present)* - Leading ROSPIN's growth strategy and partnerships.
+- **Satellite Data Processing Masterclass - Project Supervisor @ ROSPIN** *(initiated 2024)* - Started the programme in 2024 with Babeș-Bolyai University and coordinated it as Project Manager; now supervises it. Also a mentor in the third edition (22 October - 12 December 2026): 229 participants across Bucharest, Cluj-Napoca and Timișoara, 15 mentors, two tracks (Enterprise Software and Scientific Research) and a Demo Day.
+- **Co-organiser @ [Code & Cookies](https://relaxed-faun-9a1d3b.netlify.app)** *(11-13 Dec 2026, Cluj-Napoca)* - A charity hackathon organised with other students. Teams build digital solutions for NGOs and local causes, and instead of a participation fee each participant brings a gift for a child in residential care.
+- **IT Manager @ ROSPIN** *(Sep 2022 - Present)* - Leads website development and mentors junior developers in WordPress, cPanel, and React.
+- **PR Coordinator &amp; Aerospace Mentor @ Romanian Science Festival** *(Apr 2024 - Dec 2024)* - Led outreach and hands-on space activities for children.
+- **Community Manager @ ROSPIN** *(Sep 2022 - Jan 2024)* - Organised large-scale space education events across 11 cities in Romania.
+- **ROSPIN School Project Manager** *(Jan 2022 - Sep 2022)* - Led the inaugural edition with 300 students on space science and technology.
+- **Cluj-Napoca Ambassador @ ROSPIN** *(Oct 2021 - Sep 2022)* - Built and led a community of space enthusiasts, organising regular networking events with industry experts.
+- **Volunteer - Projects Department @ Asociația Studenților Fizicieni UBB** *(Oct 2022 - Sep 2023)* - Planned and executed STEM events and workshops with high participant engagement.
+- **Volunteer @ Euroavia Cluj-Napoca** *(Oct 2022 - Sep 2023)* - Organised aerospace networking events, workshops, and industry-focused discussions.
+- **HR Volunteer @ HERMES Society** *(Oct 2021 - Sep 2023)* - Supported recruitment and coordinated the Hermes Hackathon.
+- **Backstage Volunteer @ UNTOLD Festival** *(Aug 2022)* - Logistical and operational backstage support: artist schedules, equipment setup, event execution.
 
 ---
 
-## Payload — Selected Projects &amp; Achievements
+## Payload - Selected Projects &amp; Achievements
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:1F6FEB,100:0D1117&height=4&section=header" alt="divider" />
 </p>
 
-### EOSec — Defense-X Hackathon Winner *(Dec 2025, Sibiu)*
+### BraveTech EU DefTech Forge Romania - Project Manager *(Sep - Nov 2026, Sibiu)*
+Project Manager for the Romanian edition, organised by ROSPIN with the "Nicolae Bălcescu" Land Forces Academy in Sibiu, in partnership with the European Commission, Brave1 and EDA. Four challenges, 340 people from 164 organisations.
+
+### IAC 2026, 77th International Astronautical Congress *(5-9 Oct 2026, Antalya, Türkiye)*
+Represented ROSPIN and contributed to four papers, two as first author and two as co-author (listed under Publications below).
+
+### EOSec - Defense-X Hackathon Winner *(Dec 2025, Sibiu)*
 Co-developed a satellite-based monitoring platform using multispectral and radar imagery to detect critical infrastructure and border changes.
 
 ### ESA Datalabs Ariel Hackathon 2025 *(Jan 2025, Madrid)*
 Built a machine-learning solution to analyse instrument noise and improve signal clarity for the ESA Ariel exoplanet mission.
 
 ### Erasmus+ Programs
-- *"Be Unique"* (Antalya, Turkey, 2019) — Social inclusion and empowerment initiatives.
-- *"Synergy for Renewal"* KA21 (Vilnius, Lithuania, 2018) — Community renewal and sustainability.
+- *"Be Unique"* (Antalya, Turkey, 2019) - Social inclusion and empowerment initiatives.
+- *"Synergy for Renewal"* KA21 (Vilnius, Lithuania, 2018) - Community renewal and sustainability.
 
 ---
 
-## Lab Notebook — Currently Experimenting With
+## Lab Notebook - Currently Experimenting With
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2400&pause=900&color=79C0FF&center=true&vCenter=true&width=760&height=48&lines=%24+tail+-f+%2Flab%2Fnotebook.log;%E2%96%B8+federated+learning+on+on-orbit+EO+data;%E2%96%B8+eBPF+observability+in+Kubernetes;%E2%96%B8+progressive+delivery+with+Argo+Rollouts;%E2%96%B8+serverless+SAR+preprocessing+pipelines" alt="lab notebook tail" />
@@ -593,12 +600,12 @@ drwxr-xr-x  thesis-distributed-eo/      # reading list + prototype scaffolding
 ```
 
 <details>
-  <summary><b>Reading shelf · Q2 2026</b></summary>
+  <summary><b>Reading shelf</b></summary>
 
-  - *Site Reliability Engineering* (Google) — re-read, this time with highlights.
-  - *Designing Data-Intensive Applications* — Kleppmann.
-  - *Earth Observation Using Python* — McGuirk et al.
-  - *Accelerate* — Forsgren / Humble / Kim — metrics that actually move.
+  - *Site Reliability Engineering* (Google) - re-read, this time with highlights.
+  - *Designing Data-Intensive Applications* - Kleppmann.
+  - *Earth Observation Using Python* - McGuirk et al.
+  - *Accelerate* - Forsgren / Humble / Kim - metrics that actually move.
   - Papers: Flower federated-learning papers, ESA's on-board AI whitepapers.
 
 </details>
@@ -608,7 +615,9 @@ drwxr-xr-x  thesis-distributed-eo/      # reading list + prototype scaffolding
 ## Places I've Launched From
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Cluj--Napoca%2C%20RO-Home%20Base-0D1117?style=for-the-badge&logo=icloud&logoColor=79C0FF" />
+  <img src="https://img.shields.io/badge/Cluj--Napoca%2C%20RO-Home%20Base-0D1117?style=for-the-badge&logo=icloud&logoColor=79C0FF" alt="Cluj-Napoca, home base" />
+  <img src="https://img.shields.io/badge/Sibiu%2C%20RO-DefTech%20Forge%20PM%20'26-0D1117?style=for-the-badge&logo=rocket&logoColor=79C0FF" alt="Sibiu, BraveTech EU DefTech Forge Romania 2026" />
+  <img src="https://img.shields.io/badge/Antalya%2C%20TR-IAC%20'26-0D1117?style=for-the-badge&logo=googlescholar&logoColor=79C0FF" alt="Antalya, IAC 2026" />
   <img src="https://img.shields.io/badge/Sibiu%2C%20RO-Defense--X%20Winner%20'25-0D1117?style=for-the-badge&logo=trophy&logoColor=79C0FF" />
   <img src="https://img.shields.io/badge/Munich%2C%20DE-SSEA%20Symposium%20'26-0D1117?style=for-the-badge&logo=googlescholar&logoColor=79C0FF" />
   <img src="https://img.shields.io/badge/Madrid%2C%20ES-ESA%20Ariel%20Hackathon%20'25-0D1117?style=for-the-badge&logo=rocket&logoColor=79C0FF" />
@@ -618,17 +627,17 @@ drwxr-xr-x  thesis-distributed-eo/      # reading list + prototype scaffolding
 
 ---
 
-## Sound of Mission Control — Spotify Wrapped 2025
+## Sound of Mission Control - Spotify Wrapped 2025
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2400&pause=900&color=58A6FF&center=true&vCenter=true&width=820&height=42&lines=%24+tune+--frequency%3Dmission-control;%24+spotify+get+wrapped+--year%3D2025;%E2%94%82+top+artist%3A+Subcarpa%C8%9Bi+%C2%B7+930+min+%C2%B7+top+0.8%25+global+fan" alt="spotify intro" />
 </p>
 
-### Top Artist — the one song-on-repeat
+### Top Artist - the one song-on-repeat
 
 <p align="center">
   <a href="https://open.spotify.com/search/Subcarpa%C8%9Bi">
-    <img src="https://img.shields.io/badge/Subcarpa%C8%9Bi-930%20min%20%C2%B7%20top%200.8%25%20global%20fan-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Subcarpați — top artist 2025" />
+    <img src="https://img.shields.io/badge/Subcarpa%C8%9Bi-930%20min%20%C2%B7%20top%200.8%25%20global%20fan-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Subcarpați - top artist 2025" />
   </a>
 </p>
 
@@ -639,7 +648,7 @@ drwxr-xr-x  thesis-distributed-eo/      # reading list + prototype scaffolding
 <table>
   <tr>
     <td valign="top" width="50%">
-      <h4 align="center">Top Songs — 2025</h4>
+      <h4 align="center">Top Songs - 2025</h4>
       <p align="center">
         <a href="https://open.spotify.com/search/Raving%20David%20Guetta%20AFROJACK"><img src="https://img.shields.io/badge/01-Raving%20%C2%B7%20David%20Guetta%2C%20AFROJACK-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Raving" /></a><br/>
         <a href="https://open.spotify.com/search/Turn%20On%20The%20Lights%20again%20Fred%20again%20Swedish%20House%20Mafia"><img src="https://img.shields.io/badge/02-Turn%20On%20The%20Lights%20again..%20%C2%B7%20Fred%20again..%2C%20SHM-58A6FF?style=for-the-badge&logo=spotify&logoColor=white" alt="Turn On The Lights again.." /></a><br/>
@@ -649,7 +658,7 @@ drwxr-xr-x  thesis-distributed-eo/      # reading list + prototype scaffolding
       </p>
     </td>
     <td valign="top" width="50%">
-      <h4 align="center">Top Genres — 2025</h4>
+      <h4 align="center">Top Genres - 2025</h4>
       <p align="center">
         <img src="https://img.shields.io/badge/01-Electronica-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Electronica" /><br/>
         <img src="https://img.shields.io/badge/02-Europop-58A6FF?style=for-the-badge&logo=spotify&logoColor=white" alt="Europop" /><br/>
@@ -661,7 +670,7 @@ drwxr-xr-x  thesis-distributed-eo/      # reading list + prototype scaffolding
   </tr>
 </table>
 
-### Top Albums — 2025
+### Top Albums - 2025
 
 | # | Album | Artist |
 | :--: | :-- | :-- |
@@ -671,7 +680,7 @@ drwxr-xr-x  thesis-distributed-eo/      # reading list + prototype scaffolding
 | 04 | [The Sound of Heaven](https://open.spotify.com/search/The%20Sound%20of%20Heaven%20Andr%C3%A9%20Rieu) | André Rieu · Johann Strauss Orchestra |
 | 05 | [Hurry Up Tomorrow](https://open.spotify.com/search/Hurry%20Up%20Tomorrow%20The%20Weeknd) | The Weeknd |
 
-> **Taste, summarised:** Electronica and Europop run the focus sessions, soundtracks (the *Suits* OST especially) keep the writing flowing, and Subcarpați — Romanian hip-hop fused with traditional folk — anchors the whole rotation.
+> **Taste, summarised:** Electronica and Europop run the focus sessions, soundtracks (the *Suits* OST especially) keep the writing flowing, and Subcarpați - Romanian hip-hop fused with traditional folk - anchors the whole rotation.
 
 ---
 
@@ -694,33 +703,37 @@ drwxr-xr-x  thesis-distributed-eo/      # reading list + prototype scaffolding
   </a>
 </p>
 
-- **[Autonomous Heat Island Detection Tool](https://github.com/SimonelDavid/HeatIslands)** — Docker, Terraform, GEE, Java, Python, Nginx, Grafana, Prometheus.
-- **[Landsat vs Copernicus](https://github.com/Romanian-Space-Initiative/Landsat-vs-Copernicus)** — ROSPIN workshop on the advantages and tradeoffs of Copernicus and Landsat data. Python, GEE, Copernicus Hub.
-- **[Geospatial Intelligence Workshop](https://github.com/Romanian-Space-Initiative/Geospatial-Intelligence-Workshop)** — Deploying a web app that processes satellite data. Docker, Shell, Python, GEE, Copernicus Hub.
-- **[SpacedIn Platform](https://spacedin.getlearnworlds.com/)** — A platform to educate students on the lifecycle of space missions.
-- **[ROSPIN Website](https://rospin.org/)** — Main website of ROSPIN.
-- **[WhatsApp Automation Tool](https://github.com/SimonelDavid/WhatsAppMessageAutomation)** — Automation tool supporting ROSPIN staff. Python.
+- **[Autonomous Heat Island Detection Tool](https://github.com/SimonelDavid/HeatIslands)** - Docker, Terraform, GEE, Java, Python, Nginx, Grafana, Prometheus.
+- **[Landsat vs Copernicus](https://github.com/Romanian-Space-Initiative/Landsat-vs-Copernicus)** - ROSPIN workshop on the advantages and tradeoffs of Copernicus and Landsat data. Python, GEE, Copernicus Hub.
+- **[Geospatial Intelligence Workshop](https://github.com/Romanian-Space-Initiative/Geospatial-Intelligence-Workshop)** - Deploying a web app that processes satellite data. Docker, Shell, Python, GEE, Copernicus Hub.
+- **[SpacedIn Platform](https://spacedin.getlearnworlds.com/)** - A platform to educate students on the lifecycle of space missions.
+- **[ROSPIN Website](https://rospin.org/)** - Main website of ROSPIN.
+- **[WhatsApp Automation Tool](https://github.com/SimonelDavid/WhatsAppMessageAutomation)** - Automation tool supporting ROSPIN staff. Python.
 
 ---
 
-## Downlink — Publications
+## Downlink - Publications
 
-- **ROSPIN Satellite Data Processing Masterclass** — *5th SSEA Symposium, Munich, Apr 2026*
-- **Federated Learning for On-Orbit EO Analytics in Military Satellite Constellations** — *5th EDT Conference, Sibiu, Mar 2026*
-- **Top Cities in Romania by Urban Heat Island Cold Spots (2018–2022)** — *ROSPIN, AIM-SPACE, Nov 2024*
-- **Top Cities in Romania by Urban Heat Island Hotspots (2018–2022)** — *ROSPIN, AIM-SPACE, Nov 2024*
-- **Wondering for Freedom** — *Independent game project inspired by John Stuart Mill's On Liberty, Apr 2021*
-
----
-
-## Training Program — Education
-
-- **Master's in Distributed Systems in Internet** — Babeș-Bolyai University *(2024 — Ongoing)*
-- **Bachelor of Science in Computer Science** — Babeș-Bolyai University *(2021 — 2024)*
+- **The ROSPIN Satellite Data Processing Masterclass: A Scalable Model for EO Education** (first author) - *IAC 2026, Antalya, Oct 2026*
+- **An AI-Driven Platform for Conversational Earth Observation Decision Support** (first author) - *IAC 2026, Antalya, Oct 2026*
+- **The ROSPIN-SAT-1 Summer School: An Applied Model for Space Workforce and Ecosystem Development** (co-author) - *IAC 2026, Antalya, Oct 2026*
+- **Triangulating Space Workforce Development in Romania: Sector Needs, Student Readiness & Non-Formal Education** (co-author) - *IAC 2026, Antalya, Oct 2026*
+- **ROSPIN Satellite Data Processing Masterclass** - *5th SSEA Symposium, Munich, Apr 2026*
+- **Federated Learning for On-Orbit EO Analytics in Military Satellite Constellations** - *5th EDT Conference, Sibiu, Mar 2026*
+- **Top Cities in Romania by Urban Heat Island Cold Spots (2018-2022)** - *ROSPIN, AIM-SPACE, Nov 2024*
+- **Top Cities in Romania by Urban Heat Island Hotspots (2018-2022)** - *ROSPIN, AIM-SPACE, Nov 2024*
+- **Wandering for Freedom** - *Independent game project inspired by John Stuart Mill's On Liberty, Apr 2021*
 
 ---
 
-## Crew Comms — Languages
+## Training Program - Education
+
+- **Master's in Software Engineering** - Babeș-Bolyai University (UBB), Cluj-Napoca *(2026 - Ongoing)*
+- **Bachelor of Science in Computer Science** - Babeș-Bolyai University *(2021 - 2024)*
+
+---
+
+## Crew Comms - Languages
 
 | Language | Level |
 | --- | --- |
@@ -730,19 +743,19 @@ drwxr-xr-x  thesis-distributed-eo/      # reading list + prototype scaffolding
 
 ---
 
-## Flight Crew — Soft Skills
+## Flight Crew - Soft Skills
 
 Leadership · Teamwork · Communication · Research · Creativity · Problem-Solving · Decision-Making · Strategic Thinking · Adaptability
 
 ---
 
-## Side Payloads — Other Interests
+## Side Payloads - Other Interests
 
 Machine Learning · Cybersecurity · Space Exploration · Satellites · Astronomy · Video Games · Open-Source · Music · Violin · Contemporary Dance (trained)
 
 ---
 
-## Telemetry — GitHub Activity
+## Telemetry - GitHub Activity
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2400&pause=1000&color=58A6FF&center=true&vCenter=true&width=760&height=40&lines=%24+telemetry+%E2%94%80+streaming+live+metrics+from+the+ground+station;%24+uplink+OK+%7C+latency+nominal+%7C+commit+buffer+healthy" alt="telemetry status" />
@@ -775,7 +788,7 @@ Machine Learning · Cybersecurity · Space Exploration · Satellites · Astronom
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=simoneldavid&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Telemetry" alt="Activity Graph" />
 </p>
 
-### Contribution Snake — Eating the Orbit
+### Contribution Snake - Eating the Orbit
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/SimonelDavid/SimonelDavid/output/github-contribution-grid-snake-dark.svg" alt="Snake eating contributions" />
@@ -783,7 +796,7 @@ Machine Learning · Cybersecurity · Space Exploration · Satellites · Astronom
 
 ---
 
-## Uplink — Connect
+## Uplink - Connect
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2400&pause=900&color=58A6FF&center=true&vCenter=true&width=760&height=42&lines=T-05+...+T-04+...+T-03+...+T-02+...+T-01;%E2%86%92+establishing+uplink+with+ground+crew;%E2%86%92+channels+open%3A+pick+one+and+say+hi" alt="uplink countdown" />
@@ -793,7 +806,7 @@ Machine Learning · Cybersecurity · Space Exploration · Satellites · Astronom
   <a href="https://www.linkedin.com/in/simoneldavid/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://simoneldavid.github.io/Personal-website">
+  <a href="https://simonel-david.tech">
     <img src="https://img.shields.io/badge/Personal%20Website-1F6FEB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Personal Website" />
   </a>
   <a href="mailto:simoneldavid17@gmail.com">
